@@ -23,7 +23,7 @@ keywords = ['VAR', '#VAR', 'Football', '#Football']
 # Only crawl tweets that are written in english
 language = ['en']
 
-# Twitter developer portal keys (These have been removed and can be replaced with the markers keys).
+# Twitter developer access keys (These have been removed and can be replaced with the markers keys).
 consumer_key = ""
 consumer_secret = ""
 access_token = ""
@@ -51,7 +51,6 @@ class StdOutListener(StreamListener):
 
         # Add all tweet information into tweet variable which is stored in the database
         tweet = {'id':tweetID, 'username':username, 'followers':followers, 'text':text, 'hashtags':hashtags, 'language':language, 'created':created}
-
 
         # Save the data to MongoDB
         collection.save(tweet)
