@@ -1,6 +1,6 @@
 # Twitter API Crawler - Web Science Assessment 2313202n
 
-The main focus of this project was to develop a Twitter datta crawler so that I could complete network based social media analytics. This network crawler makes use of the Twitter API to collect data from tweets in real time. 
+The main focus of this project was to develop a Twitter data crawler so that I could complete network based social media analytics. This network crawler makes use of the Twitter API to collect data from tweets in real time. 
 
 
 ### Dependencies
@@ -34,6 +34,24 @@ pip install TwitterSearch
 
 ```
 pip install Scikit-learn
+```
+
+### Running
+
+- Search file - Add your Twitter Developer keys and change the keywords to your chosen topic and run using
+```
+python "Twitter Search.py"
+```
+
+- Crawler file - Add your Twitter Developer keys and change the keywords to your chosen topic. You must also ensure that you have MongoDB set up correctly on your machine. Finally run using
+```
+python "Twitter Crawler.py"
+```
+
+- Cluster file - To write out to a file, uncomment each "file.write" line and edit the file name (file = open(r<"YOUR_FILENAME.txt">,"a"). Run using
+
+```
+python "Cluster.py"
 ```
 
 
