@@ -1,42 +1,40 @@
 # Twitter API Crawler - Web Science Assessment 2313202n
 
-The main focus of this project was to create a ...
+The main focus of this project was to develop a Twitter datta crawler so that I could complete network based social media analytics. This network crawler makes use of the Twitter API to collect data from tweets in real time. 
 
 
-### Prerequisites
+### Dependencies
 
-The prerequisites are as follows:
+- Tweepy
+- Pymongo
+- MongoDB
+- Pandas
+- TwitterSearch
+- Scikit-learn pip install scikit-learn
 
-#### Python 2.7 or above
 
-- ...
-- ...
+### Installing Dependencies
 
-#### SSSS
-- ...
-- ...
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
 
 ```
-Give the example
+pip install tweepy
 ```
 
-And repeat
-
 ```
-until finished
+pip install pymongo
 ```
 
-### Example Cluster Output File
+```
+pip install pandas
+```
 
-- Must change file names
+```
+pip install TwitterSearch
+```
 
-### Example CSV Output File
+```
+pip install Scikit-learn
+```
 
 
 ## Authors
@@ -45,6 +43,8 @@ until finished
 
 ## Acknowledgments
 
-- ADD GITHUB FOR CRAWLER []()
-- Clustering using Scikit-Learn - [Stackoverflow Scikit-learn](https://stackoverflow.com/questions/27889873/clustering-text-documents-using-scikit-learn-kmeans-in-python?fbclid=IwAR13agTGUdH3e7Xdpt2x6ee6R8vrzjWCuguWgCgTklOcmcYBwVdO6ak8c3k)
-- ADD CLUSTER SOFTWARE []()
+- [GitHub For Twitter Search](https://github.com/ckoepp/TwitterSearch)
+- [Clustering using Scikit-Learn Stackoverflow](https://stackoverflow.com/questions/27889873/clustering-text-documents-using-scikit-learn-kmeans-in-python?fbclid=IwAR13agTGUdH3e7Xdpt2x6ee6R8vrzjWCuguWgCgTklOcmcYBwVdO6ak8c3k)
+- [GitHub for Twitter Crawler](https://github.com/SamDelgado/twitter-to-mongo)
+- [Tweepy Documentation](http://docs.tweepy.org/en/latest/)
+- [Twitter Developer Documentation](https://developer.twitter.com/en/docs)
